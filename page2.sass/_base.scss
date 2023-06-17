@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	@media screen and (max-width: 57em) {
+		font-size: 50%;
+	}
+	@media screen and (max-width: 30em) {
+		font-size: 45%;
+	}
+}
+
+body {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 2rem;
+}

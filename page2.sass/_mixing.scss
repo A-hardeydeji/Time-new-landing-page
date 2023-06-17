@@ -1,0 +1,9 @@
+@mixin btn() {
+	font-size: 2rem;
+	padding: 1.5rem 3rem;
+	background-color: rgb(36, 6, 107);
+	border: none;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+}

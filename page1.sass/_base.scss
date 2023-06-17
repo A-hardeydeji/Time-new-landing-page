@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+	@media screen and (max-width: 57em) {
+		font-size: 50%;
+	}
+	@media screen and (max-width: 30em) {
+		font-size: 45%;
+	}
+}
+
+body {
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 2rem;
+	@media screen and (max-width: 64em) {
+		padding: 0 4rem;
+	}
+}
+
+.active {
+	color: black !important;
+}
